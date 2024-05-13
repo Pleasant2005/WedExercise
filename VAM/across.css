@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 15px;
+  line-height: 21px;
+  background-color: #000;
+  width: 100%;
+  font-family: 'Spiller','Arial','Helvetica','sans-serif';
+  overflow-x: hidden;
+}
+
+/* body {
+  background-color: #000000;
+} */
+
+.across {
+  padding: 20px 0px 30px;
+  color: #fff;
+}
+
+.across-main {
+  display: table;
+  background-color: #242529;
+}
+
+.across-main_content {
+  display: row;
+}
+
+ul {
+	margin: 50px;
+	list-style-type: none;
+  padding: 0px 60px 0px 60px;
+}
