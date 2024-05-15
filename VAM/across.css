@@ -14,25 +14,27 @@ body {
 }
 
 .across {
-  width:1060px;
+  width:1600px;
 	padding-top:5px;
 	padding-bottom:5px;
-  
+  padding: 20px 0px 30px;
+  color: #fff;
+  width: 1600px;
+  margin:center;
 }
 
 .across-header {
   text-align: center;
 }
 
-.across-main {
-  display: table;
+.across-main-content {
   background-color: #242529;
   color: #fff;
+  
 }
 
-.across-main_content {
-  display: table-row;
-  color: #fff;
+.across-main-title:hover {
+  text-decoration: underline; 
 }
 
 ul {
@@ -47,6 +49,10 @@ a img:hover {
   transition: filter 0.3s;
 }
 
+div.across-main-title:hover {
+  text-decoration: ;
+}
+
 p,h2 {
   color: #fff;
 }
@@ -55,12 +61,8 @@ p,h2 {
   display: flex;
 }
 
-p {
-  display: flex;
-}
-
 .footer {
-  position: absolute;
+  display: inline-block;
   text-align: center;
   border: 1px solid #fff;
   margin: 0px;
@@ -69,18 +71,58 @@ p {
 }
 
 li {
-  display: table-cell;
+  display: inline;
   border-bottom: #242529;
+  /* margin: 10px; */
 }
 
 .sing {
   padding: 20px 0px 30px;
   color: #fff;
-  width: 1060px;
+  /* width: 1600px; */
   margin:  auto;
 }
 
 .logo {
   float: right;
   height: auto;
+}
+
+.title {
+  height: 68px;
+  line-height: normal;
+  padding-left:200px ;
+  background: url(images/stub.png);
+}
+
+.top {
+  display: table-row;
+}
+
+.Japna {
+  display: table-row;
+}
+
+.Tropical {
+  display: table-cell;
+}
+
+.Fragile {
+  display: table-cell;
+}
+
+.end {
+  display: table-row;
+}
+
+.NAOMI {
+  display: table-cell;
+}
+
+.Energy {
+  display: table-cell;
+}
+
+.Thomas {
+  display: table-cell;
 }
