@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: #fff;
+  color: inherit;
 }
 
 body {
@@ -18,19 +18,18 @@ body {
 	padding-top:5px;
 	padding-bottom:5px;
   padding: 20px 0px 30px;
+  margin: 0px auto;
   color: #fff;
-  width: 1600px;
-  margin:center;
 }
 
 .across-header {
   text-align: center;
 }
 
-.across-main-content {
-  background-color: #242529;
-  color: #fff;
-  
+.across-main {
+  background-color: rgba(37, 38, 41, .9);
+  overflow: hidden;
+  padding: 20px 0 30px;
 }
 
 .across-main-title:hover {
@@ -38,9 +37,9 @@ body {
 }
 
 ul {
-	margin: 50px;
+	/* margin: 50px; */
 	list-style-type: none;
-  padding: 0px 60px 0px 60px;
+  /* padding: 0px 60px 0px 60px; */
   color: #fff;
 }
 
@@ -50,7 +49,7 @@ a img:hover {
 }
 
 div.across-main-title:hover {
-  text-decoration: ;
+  text-decoration: underline;
 }
 
 p,h2 {
@@ -62,25 +61,37 @@ p,h2 {
 }
 
 .footer {
-  display: inline-block;
+  /* display: inline-block; */
   text-align: center;
   border: 1px solid #fff;
   margin: 0px;
-  padding: 3px 10px 3px 10px;
+  padding: 0px 10px;
   background-color: #1d1e20;
+}
+.across-footer {
+  display: inline-block;
+  margin: 0 auto;
 }
 
 li {
-  display: inline;
   border-bottom: #242529;
-  /* margin: 10px; */
+  padding: 0px 10px;
 }
+
+.pictures {
+  width: 100px;
+}
+
+/* .Exhibitions {
+  width: 100px;
+} */
 
 .sing {
   padding: 20px 0px 30px;
   color: #fff;
-  /* width: 1600px; */
-  margin:  auto;
+  width: 1600px;
+  margin: 0 auto;
+  background-color: #dee0e2;
 }
 
 .logo {
@@ -88,26 +99,19 @@ li {
   height: auto;
 }
 
-.title {
+/* .title {
   height: 68px;
   line-height: normal;
   padding-left:200px ;
   background: url(images/stub.png);
-}
+} */
 
 .top {
   display: table-row;
+  margin-bottom: 32px;
 }
 
-.Japna {
-  display: table-row;
-}
-
-.Tropical {
-  display: table-cell;
-}
-
-.Fragile {
+.Japna,.Tropical,.Fragile {
   display: table-cell;
 }
 
@@ -115,14 +119,31 @@ li {
   display: table-row;
 }
 
-.NAOMI {
+.NAOMI,.Energy,.Thomas {
   display: table-cell;
 }
 
-.Energy {
-  display: table-cell;
+.across-main-data {
+  display: inline;
 }
 
-.Thomas {
-  display: table-cell;
+.across-main_footer_buttons {
+  /* display: inline-block; */
+  float: right;
+}
+
+.across-main-footer-buttons {
+  float: right;
+}
+
+/* .footer {
+  display: inline-block;
+} */
+
+.Exhibitions {
+  width: 480px;
+}
+
+.Exhibitions img {
+  width: 480px;
 }
