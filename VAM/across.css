@@ -14,7 +14,7 @@ body {
 }
 
 .across {
-  width:1600px;
+  width:1020px;
 	padding-top:5px;
 	padding-bottom:5px;
   padding: 20px 0px 30px;
@@ -36,14 +36,16 @@ body {
   text-decoration: underline; 
 }
 
-ul {
-	/* margin: 50px; */
+.across-main-content {
+	margin: 15px 20px;
+  padding: 0px 10px;
 	list-style-type: none;
   /* padding: 0px 60px 0px 60px; */
   color: #fff;
+  /* margin: 0px 12px; */
 }
 
-a img:hover {
+.photos img:hover {
   filter: brightness(80%);
   transition: filter 0.3s;
 }
@@ -65,7 +67,7 @@ p,h2 {
   text-align: center;
   border: 1px solid #fff;
   margin: 0px;
-  padding: 0px 10px;
+  /* padding: 0px 10px; */
   background-color: #1d1e20;
 }
 .across-footer {
@@ -73,31 +75,25 @@ p,h2 {
   margin: 0 auto;
 }
 
-li {
-  border-bottom: #242529;
+.Exhibitions {
+  margin-top: 32px;
   padding: 0px 10px;
+  width: 300px;
+  /* border-bottom: solid #4b4c4d; */
 }
-
-.pictures {
-  width: 100px;
-}
-
-/* .Exhibitions {
-  width: 100px;
-} */
 
 .sing {
-  padding: 20px 0px 30px;
+  /* padding: 20px 0px 30px; */
   color: #fff;
-  width: 1600px;
+  width: 1020px;
+  height: 300px;
   margin: 0 auto;
   background-color: #dee0e2;
 }
-
-.logo {
+/* .logo {
   float: right;
   height: auto;
-}
+} */
 
 /* .title {
   height: 68px;
@@ -113,37 +109,97 @@ li {
 
 .Japna,.Tropical,.Fragile {
   display: table-cell;
+  border-bottom: solid #4b4c4d;
 }
 
 .end {
   display: table-row;
+  margin: 30px 0px 0px 0px;
 }
 
 .NAOMI,.Energy,.Thomas {
   display: table-cell;
+  border-bottom: solid #4b4c4d;
 }
 
 .across-main-data {
   display: inline;
 }
 
-.across-main_footer_buttons {
-  /* display: inline-block; */
-  float: right;
-}
-
 .across-main-footer-buttons {
   float: right;
 }
 
-/* .footer {
-  display: inline-block;
-} */
-
-.Exhibitions {
-  width: 480px;
+a .across-main-footer-buttons :hover {
+  background-color: rgba(164, 164, 164, 0.6);
 }
 
 .Exhibitions img {
-  width: 480px;
+  width: 300px;
+}
+
+.icon {
+  display: inline;
+  vertical-align: middle;
+  height: 40px;
+  width: 40px;
+}
+
+.time{
+  padding-left: 20px;
+  background-image: url(images/data.png) no-repeat left center;
+}
+
+.More :hover {
+  /* background-color: #242529; */
+  border-color: #505354
+}
+
+.across-main-footer-buttons p{
+  margin: 0;
+  padding: 0;
+}
+
+.time {
+  line-height: 20px;
+}
+
+.metion {
+  color: #000;
+}
+
+.message {
+  width: 400px;
+  padding:30px;
+}
+
+.More_info {
+  font-size: 17px;
+}
+
+.logo {
+  position: relative;
+  color: #b7b8bd;
+  float: right;
+  margin: 0px;
+}
+
+.logo img {
+  width: 590px;
+}
+
+.metion h2{
+  color: #000;
+}
+
+.metion p {
+  color: #000;
+}
+
+a h2 {
+  margin: 1px 0px 15px 0px;
+}
+
+.across-main-data p {
+  margin: 0px;
 }
