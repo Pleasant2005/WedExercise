@@ -27,6 +27,8 @@ body {
 }
 
 .across-main {
+  display: flex;
+  flex-wrap: wrap;
   background-color: rgba(37, 38, 41, .9);
   overflow: hidden;
   padding: 20px 0 30px;
@@ -36,7 +38,7 @@ body {
   text-decoration: underline; 
 }
 
-.across-main-content {
+ul {
 	margin: 15px 20px;
   padding: 0px 10px;
 	list-style-type: none;
@@ -75,7 +77,7 @@ p,h2 {
   margin: 0 auto;
 }
 
-.Exhibitions {
+li {
   margin-top: 32px;
   padding: 0px 10px;
   width: 300px;
@@ -134,7 +136,11 @@ a .across-main-footer-buttons :hover {
   background-color: rgba(164, 164, 164, 0.6);
 }
 
-.Exhibitions img {
+/* .Exhibitions img {
+  width: 300px;
+} */
+
+.photos img {
   width: 300px;
 }
 
@@ -202,4 +208,14 @@ a h2 {
 
 .across-main-data p {
   margin: 0px;
+}
+
+p img{
+  width: 20px;
+  height: 20px;
+  
+}
+
+.sing-up {
+  background-color: #000;
 }
