@@ -77,13 +77,6 @@ p,h2 {
   margin: 0 auto;
 }
 
-li {
-  margin-top: 32px;
-  padding: 0px 10px;
-  width: 300px;
-  /* border-bottom: solid #4b4c4d; */
-}
-
 .sing {
   /* padding: 20px 0px 30px; */
   color: #fff;
@@ -91,37 +84,6 @@ li {
   height: 300px;
   margin: 0 auto;
   background-color: #dee0e2;
-}
-/* .logo {
-  float: right;
-  height: auto;
-} */
-
-/* .title {
-  height: 68px;
-  line-height: normal;
-  padding-left:200px ;
-  background: url(images/stub.png);
-} */
-
-.top {
-  display: table-row;
-  margin-bottom: 32px;
-}
-
-.Japna,.Tropical,.Fragile {
-  display: table-cell;
-  border-bottom: solid #4b4c4d;
-}
-
-.end {
-  display: table-row;
-  margin: 30px 0px 0px 0px;
-}
-
-.NAOMI,.Energy,.Thomas {
-  display: table-cell;
-  border-bottom: solid #4b4c4d;
 }
 
 .across-main-data {
@@ -135,10 +97,6 @@ li {
 a .across-main-footer-buttons :hover {
   background-color: rgba(164, 164, 164, 0.6);
 }
-
-/* .Exhibitions img {
-  width: 300px;
-} */
 
 .photos img {
   width: 300px;
@@ -158,11 +116,15 @@ a .across-main-footer-buttons :hover {
 
 .More :hover {
   /* background-color: #242529; */
-  border-color: #505354
+  border-color: #505354;
+}
+
+.across-footer :hover {
+  border-color: #505354;
 }
 
 .across-main-footer-buttons p{
-  margin: 0;
+  margin: 0; 
   padding: 0;
 }
 
@@ -210,12 +172,79 @@ a h2 {
   margin: 0px;
 }
 
-p img{
-  width: 20px;
-  height: 20px;
-  
-}
-
 .sing-up {
   background-color: #000;
+}
+
+.across-main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 1 0 33.33333%;
+  margin-bottom: 32px;
+}
+
+article {
+  width: 300px;
+  box-sizing: border-box;
+  border-bottom: solid #505354;
+}
+
+li {
+  padding: 0px 10px;
+  margin-bottom: 32px;
+  height: 500px;
+}
+
+/* p img {
+  width: 20px;
+  height: 20px;
+} */
+
+.across-main-data {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.across-main-data-icon {
+  width: 25px;
+  height: 20px;
+  box-sizing: border-box ;
+}
+
+.across-main-data-icon img {
+  width: 20;
+  height: 20px;
+}
+
+span {
+  width:fit-content;
+  box-sizing: border-box;
+}
+
+.across-main-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.across-main-data {
+  width: fit-content;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.across-main-footer-buttons {
+  width: fit-content;
+  box-sizing: border-box;
+  padding: 4px 10px;
+}
+
+.top {
+  height: 180px;
+}
+
+.across-main-title {
+  line-height: 28px;
 }
