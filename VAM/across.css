@@ -27,8 +27,6 @@ body {
 }
 
 .across-main {
-  display: flex;
-  flex-wrap: wrap;
   background-color: rgba(37, 38, 41, .9);
   overflow: hidden;
   padding: 20px 0 30px;
@@ -42,9 +40,6 @@ ul {
 	margin: 15px 20px;
   padding: 0px 10px;
 	list-style-type: none;
-  /* padding: 0px 60px 0px 60px; */
-  color: #fff;
-  /* margin: 0px 12px; */
 }
 
 .photos img:hover {
@@ -56,20 +51,10 @@ div.across-main-title:hover {
   text-decoration: underline;
 }
 
-p,h2 {
-  color: #fff;
-}
-
-.data {
-  display: flex;
-}
-
 .footer {
-  /* display: inline-block; */
   text-align: center;
   border: 1px solid #fff;
   margin: 0px;
-  /* padding: 0px 10px; */
   background-color: #1d1e20;
 }
 .across-footer {
@@ -78,20 +63,11 @@ p,h2 {
 }
 
 .sing {
-  /* padding: 20px 0px 30px; */
   color: #fff;
   width: 1020px;
   height: 300px;
   margin: 0 auto;
   background-color: #dee0e2;
-}
-
-.across-main-data {
-  display: inline;
-}
-
-.across-main-footer-buttons {
-  float: right;
 }
 
 a .across-main-footer-buttons :hover {
@@ -115,7 +91,6 @@ a .across-main-footer-buttons :hover {
 }
 
 .More :hover {
-  /* background-color: #242529; */
   border-color: #505354;
 }
 
@@ -182,11 +157,6 @@ a h2 {
 }
 
 article {
-  flex: 1 0 33.33333%;
-  margin-bottom: 32px;
-}
-
-article {
   width: 300px;
   box-sizing: border-box;
   border-bottom: solid #505354;
@@ -195,13 +165,7 @@ article {
 li {
   padding: 0px 10px;
   margin-bottom: 32px;
-  height: 500px;
 }
-
-/* p img {
-  width: 20px;
-  height: 20px;
-} */
 
 .across-main-data {
   display: flex;
@@ -227,6 +191,7 @@ span {
 .across-main-footer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .across-main-data {
@@ -239,12 +204,45 @@ span {
   width: fit-content;
   box-sizing: border-box;
   padding: 4px 10px;
-}
-
-.top {
-  height: 180px;
+  margin-bottom: 10px;
 }
 
 .across-main-title {
   line-height: 28px;
+}
+
+.about {
+  height: 180px;
+  padding-bottom: 20px;
+}
+
+.across-footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+.What,.jiantou {
+  margin: 10px;
+}
+
+.What {
+  box-sizing: border-box;
+  width: fit-content;
+  margin-right: 0px;
+}
+
+.jiantou {
+  box-sizing: border-box;
+  width: fit-content;
+  margin-left: 0px;
+}
+
+.jiantou img {
+  height: 20px;
+  width: 20px;
+}
+
+h2 {
+  font-weight: normal;
 }
