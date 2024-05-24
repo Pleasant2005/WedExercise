@@ -32,9 +32,6 @@ body {
   padding: 20px 0 30px;
 }
 
-.across-main-title:hover {
-  text-decoration: underline; 
-}
 
 ul {
 	margin: 15px 20px;
@@ -42,13 +39,29 @@ ul {
 	list-style-type: none;
 }
 
+.across-main-title:hover {
+  text-decoration: underline; 
+}
+
 .photos img:hover {
   filter: brightness(80%);
   transition: filter 0.3s;
 }
 
-div.across-main-title:hover {
+.across-main-title:hover {
   text-decoration: underline;
+}
+
+.More :hover {
+  border-color: #505354;
+}
+
+.across-footer :hover {
+  border-color: #505354;
+}
+
+.across-footer {
+  background-color: #1d1e20;
 }
 
 .footer {
@@ -90,13 +103,6 @@ a .across-main-footer-buttons :hover {
   background-image: url(images/data.png) no-repeat left center;
 }
 
-.More :hover {
-  border-color: #505354;
-}
-
-.across-footer :hover {
-  border-color: #505354;
-}
 
 .across-main-footer-buttons p{
   margin: 0; 
