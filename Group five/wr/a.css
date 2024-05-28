@@ -1,0 +1,247 @@
+body{
+    font-size: 15px;
+    line-height: 21px;
+    /* background-color: #000; */
+    width: 100%;
+    font-family: 'Spiller','Arial','Helvetica','sans-serif';
+    overflow-x: hidden;
+    color: #fff;
+    margin: 0px;
+
+    background: url(images/1280.jpg)no-repeat;
+    background-size: 1600px auto; 
+    background-position: -125px 0px;  
+     /* background-size: 145% ;    */
+    background-size:115% ;
+    /*background-position: -130px 0px; */
+}
+
+.navigation_bar{
+    
+    /* display: inline; */
+    /* display: block; */
+    width: 1285px;
+    width: auto;
+    /* padding: 10px 65px 20px 230px; */
+    padding: 10px 65px 20px  250px;
+    height: 75px;
+
+    background-image: linear-gradient(rgba(0,0,0,0.4),transparent);
+    font-size: 17px;
+    /* font-size: 1.53rem; */
+    /* font-size: small; */
+    
+    line-height: 1.7;
+    position: relative;
+    z-index: 100;
+    list-style-type: none;
+    display: block;
+    color: #fff;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* width: 100%; */
+
+    /* height: auto; */
+}
+
+li{
+    display: inline;
+    /* padding: 5px 10px 5px 10px; */
+    padding-right: 10px;
+    padding-left: 10px;
+    /* margin-top: 10px; */
+    margin: 10px;
+}
+
+/* .Logo{
+    width: auto;
+    height: auto;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+ul,li,a:link,a:visited{
+    
+    border-bottom: none;
+    text-decoration: none;
+    
+}
+
+.navigation_bar a:visited{
+    color: #fff;
+}
+
+.navigation_bar a:hover{
+    color:grey;
+}
+
+.navigation_bar a:active{
+    border: 2px solid #fff;
+    outline: 2px solid #000;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 1;
+    /* position: relative; */
+    /* width: 50vw; */
+    /* height: 20vw; */
+}
+
+.header_h2{
+    width: 640px;
+    line-height: 3.8rem;
+    font-size: 3.6rem;
+    font-weight: 450px;
+    /* font-size: small; */
+
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+/* .header_content_main{
+    padding-left: 65px;
+    padding-right: 60px;
+} */
+
+.header_content{
+    /* padding-left: 250px; */
+    padding-left: 270px;
+    padding-right: 60px;
+
+    /* background-image: linear-gradient(rgba(0,0,0,1),transparent); */
+    background: linear-gradient(transparent, rgba(0,0,0,0.7)); 
+    background: linear-gradient(transparent, black); 
+    height: 470px;
+    
+    width: 1300px;
+    width: auto;
+}
+
+.header_subheading{
+    font-size: 1.53rem;
+    line-height: 2.4rem;
+    
+
+    display: block;
+    margin-top: 10px;
+    max-width: none;
+
+}
+
+.header_content_cta{
+    font-size: 14px;
+    font-size: 0.93rem;
+    text-align: center;
+
+    line-height: 18px;
+    line-height: 1.2rem;
+
+    margin-top: 10px;
+    
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    background-color:#fff;
+    border: 1px solid #fff;
+
+    display: block;
+    /* float: right; */
+    width: 300px;
+    height: 25px;
+    border-radius: 2px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    margin: 0px auto;
+    
+    position: relative;
+    top: 350px;
+}
+
+.header_button{
+    color: #1d1e20;
+
+}
+
+.header_content{
+    position: relative;
+    top: 360px;
+    left: 0px;
+}
+
+.header_location{
+    margin-top: 20px;
+}
+
+.header_location{
+    font-size: 25px;
+}
+
+.header_button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Logo{
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+
+li.Visit{
+    margin-left: 150px;
+
+}
+.search{
+    position: relative;
+    top: 10px;
+}
+li.search{
+    margin-left: 100px;
+}
+
+.header_content_cta {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_h2 {
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.header_content_main {
+    width: 690px;
+}
+
+.header_Location {
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 20px 0px 25px;
+}
+
+.header_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_content_1 {
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+.cta {
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+.header_content{
+    /* width: 1070px; */
+}
