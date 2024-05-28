@@ -255,16 +255,58 @@ h2 {
   border-color: #fff;
 }
 
-.Energy-Exhibitions-right :active {
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
-  border-bottom:  2px solid #fff;
-}
-
-
 .sing-up {
-  background-color: #000;
-  color: #fff
-  
+  width: 300px;
+  color: #000;
+  border: none;
+  margin: 0px 8px 0px 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 350px;
+  height: 50px;
 }
 
+.More_info-sing-up{
+  background-color: #000;
+  color: #fff;
+  font-size: medium;
+  margin: 0px 10px 14px 0px;
+  padding: 0px 15px;
+  width: 150px;
+  height: 50px;
+  /* position: relative; */
+  left: -5px;
+}
+
+.More_info-sing-up:active{
+  border: 4px solid #fff;
+  border-radius:5px 5px 5px 5px;
+  outline:3px solid #000;
+}
+
+.You-can{
+  color: #505354;
+}
+
+.privacy:active{
+  border: 4px solid #fff;
+  outline:3px solid #000;
+}
+
+.privacy{
+  text-decoration-line: underline;
+}
+
+.e-maile {
+  display: flex;
+  height: 50px;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 430px;
+}
+
+.logo img {
+  height: 300px;
+}
