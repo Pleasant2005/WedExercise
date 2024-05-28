@@ -254,3 +254,17 @@ h2 {
   background-color: #484a4f;
   border-color: #fff;
 }
+
+.Energy-Exhibitions-right :active {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom:  2px solid #fff;
+}
+
+
+.sing-up {
+  background-color: #000;
+  color: #fff
+  
+}
+
