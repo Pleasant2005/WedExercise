@@ -96,12 +96,6 @@ div.footer_111 {
     margin: 0;
 }
 
-/* div.container-title{
-    display: table-row;
-
-} */
-
-
 div.footer {
     display: table-cell;
 }
@@ -479,7 +473,7 @@ div.title1 {
 
 .pa,.pb,.pc,.pd,.pe {
     box-sizing: border-box;
-    width: 4%;
+    width: 8%;
 }
 
 .p1 :hover{
@@ -500,4 +494,21 @@ div.title1 {
 
 .p5 :hover{
     border: 1px solid #fff;
+}
+
+.footer_blocks12{
+    display: flex;
+    width: 1020px;
+}
+
+.footer_information {
+    box-sizing: border-box;
+    width: 770px;
+}
+
+.V_A {
+    box-sizing: border-box;
+    width: fit-content;
+    height: 160px;
+    margin-top: 140px;
 }
