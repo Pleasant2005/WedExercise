@@ -362,9 +362,9 @@ button{
   inset: 0;
   background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
   opacity: .5;
-  width: 400px;
+  width: 430px;
   height: 250px;
-  left: 80px;
+  left: 60px;
 }
 
 .South-link{
@@ -377,25 +377,38 @@ button{
   width: 300px;
 }
 
-.South,
+.South{
+  position: absolute;
+  left: 85px;
+  top: 0px;
+  z-index:2;
+}
+
 .Dundeeh3,
 .Wedgwood,
 .Youngh3,
 .Easth3{
   position: absolute;
-  left: 95px;
-  top: -5px;
+  left: 105px;
+  top: 0px;
   z-index:2;
 }
 
-.South-body,
+.South-body{
+  position: absolute;
+  left: 88px;
+  top: 40px;
+  z-index:2;
+  text-shadow:0 1px 3px #1d1e20;
+}
+
 .Dundee-body,
 .Wedgwood-text,
 .Young-text,
 .East-text{
   position: absolute;
-  left: 95px;
-  top: 35px;
+  left: 105px;
+  top: 40px;
   z-index:2;
   text-shadow:0 1px 3px #1d1e20;
 }
@@ -419,8 +432,8 @@ button{
   background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
   opacity: .5;
   width: 250px;
-  height: 400px;
-  left: 80px;
+  height: 430px;
+  left: 90px;
 }
 
 .Dundee{
@@ -439,8 +452,8 @@ button{
   background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
   opacity: .5;
   width: 250px;
-  height: 400px;
-  left: 80px;
+  height: 430px;
+  left: 90px;
 }
 
 .Wedgwood-Collection{
@@ -459,8 +472,8 @@ button{
   background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
   opacity: .5;
   width: 250px;
-  height: 400px;
-  left: 80px;
+  height: 430px;
+  left: 90px;
 }
 
 .Young{
@@ -478,9 +491,9 @@ button{
   inset: 0;
   background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
   opacity: .5;
-  width: 400px;
+  width: 430px;
   height: 250px;
-  left: 80px;
+  left: 90px;
 }
 
 .East{
