@@ -210,7 +210,7 @@ li.search{
   color: white;
 }
 
-.link1{
+a.link1{
   text-decoration: underline;
   font-size: 14px;
   padding: 0px 14px 0px 0px;
@@ -313,29 +313,37 @@ button{
   width: 430px;
   height: 250px;
   position: relative;
-  left: 60px;
 }
 
-.hengxiangtupian2 {
-  left: 90px;
-}
-
-.zongxiangtupian1,
-.zongxiangtupian2,
-.zongxiangtupian3{
-  width: 250px;
-  height: 400px;
+.zongxiangtupian1{
+  width: 245px;
+  height: 395px;
   position: relative;
-  left: 90px;
+  left: 5px;
 }
 
-.hengxiangtupian1:active,
+.zongxiangtupian2{
+  width: 245px;
+  height: 395px;
+  position: relative;
+  left: 5px;
+}
+
+
+.zongxiangtupian3{
+  width: 245px;
+  height: 395px;
+  position: relative;
+  left: 5px;
+}
+
+/* .hengxiangtupian1:active,
 .hengxiangtupian2:active,
 .zongxiangtupian1:active,
 .zongxiangtupian2:active,
-.zongxiangtupian3:active{
+.zongxiangtupian3:active {
   border: 4px solid #fff;
-}
+} */
 
 .shixiang img {
   width: 470px;
@@ -360,13 +368,18 @@ button{
   opacity: .5;
   width: 430px;
   height: 250px;
-  left: 60px;
 }
 
 .South-link{
   display:block;
   height: 250px;
-  width: 400px;
+  width: 430px;
+  position: relative;
+  left: 40px;
+}
+
+.South-link:active{
+  border: 4px solid #fff;
 }
 
 .Wedgwood{
@@ -375,24 +388,29 @@ button{
 
 .South{
   position: absolute;
-  left: 85px;
+  left: 25px;
   top: 0px;
   z-index:2;
 }
 
 .Dundeeh3,
 .Wedgwood,
-.Youngh3,
-.Easth3{
+.Youngh3{
   position: absolute;
-  left: 105px;
+  left: 25px;
   top: 0px;
   z-index:2;
 }
 
+.Easth3{
+  position: absolute;
+  left: 20px;
+  z-index: 2;
+}
+
 .South-body{
   position: absolute;
-  left: 88px;
+  left: 28px;
   top: 40px;
   z-index:2;
   text-shadow:0 1px 3px #1d1e20;
@@ -400,13 +418,20 @@ button{
 
 .Dundee-body,
 .Wedgwood-text,
-.Young-text,
-.East-text{
+.Young-text{
   position: absolute;
-  left: 105px;
+  left: 25px;
   top: 40px;
   z-index:2;
   text-shadow:0 1px 3px #1d1e20;
+}
+
+.East-text{
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  text-shadow:0 1px 3px #1d1e20;
+  z-index: 2;
 }
 
 .Wedgwood-text{
@@ -415,7 +440,7 @@ button{
 
 .South-Kensington{
   position: relative;
-  left: 20px;
+  left: 40px;
   width: 428px;
   height: 428px;
   margin: 0px 0px 20px 0px;
@@ -427,18 +452,31 @@ button{
   inset: 0;
   background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
   opacity: .5;
-  width: 250px;
-  height: 430px;
-  left: 90px;
+  width: 245px;
+  height: 395px;
+  left: 5px;
 }
 
 .Dundee{
   position: relative;
-  left: 420px;
-  top: -450px;
-  width: 256px;
-  height: 428px;
+  z-index: 2;
+  left: 515px;
+  top: -448px;
+  width: 248px;
+  height: 400px;
   margin: 0px 0px 20px 20px;
+}
+
+.Dundee:active{
+  border: 4px solid #fff;
+  border-right: 4px solid #fff;
+}
+
+.Dundee-link{
+  position: absolute;
+  width: 250px;
+  height: 400px;
+  left: -1px;
 }
 
 .Wedgwood-link::after{
@@ -448,17 +486,27 @@ button{
   background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
   opacity: .5;
   width: 250px;
-  height: 430px;
-  left: 90px;
+  height: 390px;
+  left: 5px;
+}
+
+.Wedgwood-link{
+  width: 245px;
+  height: 395px;
 }
 
 .Wedgwood-Collection{
   position: relative;
-  left: 690px;
-  top: -900px;
-  width: 256px;
-  height: 428px;
+  z-index: 2;
+  left: 790px;
+  top: -868px;
+  width: 250px;
+  height: 400px;
   margin: 0px 0px 20px 20px;
+}
+
+.Wedgwood-Collection:active{
+  border: 4px solid #fff;
 }
 
 .Young-link::after{
@@ -467,18 +515,22 @@ button{
   inset: 0;
   background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
   opacity: .5;
-  width: 250px;
-  height: 430px;
-  left: 90px;
+  width: 245px;
+  height: 395px;
+  left: 5px;
 }
 
 .Young{
   position: relative;
-  left: -10px;
-  top: -1070px;
-  width: 256px;
-  height: 256px;
+  left: 77px;
+  top: -1010px;
+  width: 250px;
+  height: 400px;
   margin: 0px 0px 20px 181px;
+}
+
+.Young:active{
+  border: 4px solid #fff;
 }
 
 .East-link::after{
@@ -489,16 +541,21 @@ button{
   opacity: .5;
   width: 430px;
   height: 250px;
-  left: 90px;
+  /* left: 90px; */
 }
 
 .East{
   position: relative;
-  left: 420px;
-  top: -1195px;
+  left: 525px;
+  top: -1280px;
   width: 428px;
   height: 256px;
   margin: 0px 0px 20px 20px;
+  z-index: 2;
+}
+
+.East:active{
+  border: 4px solid #fff;
 }
 
 .First-text{
